@@ -1,0 +1,91 @@
+#default config
+#Date: 2022.06.01
+#Author: Loon
+
+[General]
+ip-mode = v4-only
+skip-proxy = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local,e.crashlynatics.com
+bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
+dns-server = system,119.29.29.29,114.114.114.114,223.5.5.5
+allow-wifi-access = false
+wifi-access-http-port = 7222
+wifi-access-socks5-port = 7221
+proxy-test-url = http://bing.com/generate_204
+internet-test-url = http://wifi.vivo.com.cn/generate_204
+test-timeout = 3
+interface-mode = auto
+
+[Proxy]
+
+[Remote Proxy]
+
+[Proxy Chain]
+
+[Proxy Group]
+Available = select,HK,TW,SG,JP,img-url = https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/Loon(1).png
+Apple = select,DIRECT,Available,img-url = https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/apple(1).png
+人工智障 = select,TW,US,img-url = https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/AppleIntelligence.png
+流媒体服务 = select,Available,img-url = https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/youtube.png
+Telegram = select,Available,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
+HK = fallback,HK_Filter,interval = 600,max-timeout = 3000,img-url = https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/Hongkong(2).png
+TW = fallback,TW_Filter,interval = 600,max-timeout = 3000,img-url = https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/taiwan(2).png
+SG = fallback,SG_Filter,interval = 600,max-timeout = 3000,img-url = https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/singapore(2).png
+JP = fallback,JP_Filter,interval = 600,max-timeout = 3000,img-url = https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/Japan(1).png
+US = fallback,US_Filter,interval = 600,max-timeout = 3000,img-url = https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/US(1).png
+
+[Remote Filter]
+ALL_Filter = NameRegex, FilterKey = ".*"
+HK_Filter = NameRegex, FilterKey = "(?i)(港|HK|Hong)"
+TW_Filter = NameRegex, FilterKey = "(?i)(台|TW|Tai)"
+JP_Filter = NameRegex, FilterKey = "(?i)(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)"
+KR_Filter = NameRegex, FilterKey = "(?i)(KR|Korea|KOR|首尔|韩|韓)"
+US_Filter = NameRegex, FilterKey = "(?i)(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)"
+SG_Filter = NameRegex, FilterKey = "(?i)(新加坡|坡|狮城|SG|Singapore)"
+
+[Rule]
+#Type:DOMAIN-SUFFIX,DOMAIN,DOMAIN-KEYWORD,USER-AGENT,URL-REGEX,IP-CIDR
+#Strategy:DIRECT,PROXY,REJECT
+#Options:no-resolve(only for IP-CIDR,IP-CIDR2,GEOIP,IP-ASN)
+
+FINAL,Available
+
+[Remote Rule]
+https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Surge.list, policy=REJECT, tag=秋风去广告, enabled=true
+BlockiOSUpdate.list, policy=REJECT, tag=屏蔽iOS 更新, enabled=false
+https://raw.githubusercontent.com/ddgksf2013/Filter/master/StreamingSE.list, policy=DIRECT, tag=Bilibili, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/WeChat/WeChat.list, policy=DIRECT, tag=微信直连, enabled=true
+https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list, policy=DIRECT, tag=国内网站, enabled=true
+https://raw.githubusercontent.com/Loon0x00/LoonLiteRules/main/direct/cn.list, policy=DIRECT, tag=GEOIP_CN, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Filter/refs/heads/master/AppleIntelligence.list, policy=人工智障, tag=Apple Intelligence, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Apple/Apple.list, policy=Apple, tag=苹果服务, enabled=true
+AI.list, policy=人工智障, tag=人工智障, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Filter/master/Streaming.list, policy=流媒体服务, tag=流媒体服务, enabled=true
+https://raw.githubusercontent.com/Loon0x00/LoonLiteRules/main/proxy/Telegram.list, policy=Telegram, tag=Telegram, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Filter/master/GoogleVoice.list, policy=US, tag=Google Voice, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Proxy/Proxy.list, policy=Available, tag=Global, enabled=true
+
+[Rewrite]
+
+[Script]
+cron "0 30 21 * * *" script-path=WeixinSteps.js, timeout=60, tag=微信步数修改器, img-url=https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/applefitness+.png
+
+[Plugin]
+https://kelee.one/Tool/Loon/Lpx/BlockAdvertisers.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Remove_ads_by_keli.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Node_detection_tool.lpx, enabled=true
+https://yfamilys.com/plugin/endel.plugin, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Bilibili_remove_ads.lpx, policy=DIRECT, enabled=true
+https://kelee.one/Tool/Loon/Lpx/YouTube_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/AppleWeatherEnhancer.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Himalaya_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/RedPaper_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/WexinMiniPrograms_Remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Weixin_external_links_unlock.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Taobao_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/PinDuoDuo_remove_ads.lpx, tag=拼多多去广告, enabled=true
+https://kelee.one/Tool/Loon/Lpx/JD_Price.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/JD_remove_ads.lpx, tag=京东去广告, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Amap_remove_ads.lpx, tag=高德地图去广告, enabled=true
+https://kelee.one/Tool/Loon/Lpx/BaiduMap_remove_ads.lpx, tag=百度地图去广告, enabled=true
+https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/config/Loon.plugin, policy=Available, tag=Sub Store, enabled=true
+[Mitm]
