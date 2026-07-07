@@ -8,7 +8,7 @@
 
 ## 🎈 Loon 配置
 
-- 📃 [**一键导入**](loon://import?config=https://raw.githubusercontent.com/LinfengJang/proxy-config/refs/heads/main/profiles/Loon.lcf)
+- 📄 [**一键导入**](loon://import?config=https%3A%2F%2Fraw.githubusercontent.com%2FLinfengJang%2Fproxy-config%2Frefs%2Fheads%2Fmain%2Fprofiles%2FLoon.lcf)
 
 ## 🔀 分流规则（.list 格式）
 
