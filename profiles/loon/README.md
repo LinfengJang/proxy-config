@@ -3,7 +3,7 @@
 </div>  
 
 <div align="center">
-  <h1>Loon 配置文件</h1>
+  <h1>🎈 Loon 配置文件</h1>
 </div>
 
 ## 📝 订阅链接
@@ -19,8 +19,6 @@ https://github.com/LinfengJang/proxy-config/raw/refs/heads/main/profiles/loon/Lo
 - 长按导入的配置文件，在菜单中选择 **应用**
 
 
-
-- 
 
 
 
