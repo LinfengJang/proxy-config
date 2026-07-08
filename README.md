@@ -1,6 +1,7 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/LinfengJang/proxy-config/refs/heads/main/header.png" width="2100" alt="header">
+  <img src="./header.png" width="100%" alt="header">
 </div>  
+
 
 ## 😊 关于本仓库
 
@@ -8,7 +9,7 @@
 
 ## 🎈 Loon 配置
 
-- 📄 <a href="https://api.wcc.best/sub?target=loon&url=https%3A%2F%2Fraw.githubusercontent.com%2FLinfengJang%2Fproxy-config%2Frefs%2Fheads%2Fmain%2Fprofiles%2FLoon.lcf&insert=false"><b>一键导入</b></a>
+- 📄 
 
 ## 🔀 分流规则（.list 格式）
 
