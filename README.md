@@ -10,7 +10,6 @@
 ## 📝 配置文件
 
 - [Loon 配置文件](https://github.com/LinfengJang/proxy-config/tree/main/profiles/loon)
-- 
 
 ## 🔀 分流规则（.list 格式）
 
