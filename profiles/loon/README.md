@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./loon_config_file.png" width="100%" alt="header">
+  <img src="../pic/loon_config_file.png" width="100%" alt="header">
 </div>  
 
 <div align="center">
