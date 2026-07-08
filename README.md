@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/LinfengJang/proxy-config/refs/heads/main/pic/header.png" width="100%" alt="header">
+  <img src="https://raw.githubusercontent.com/LinfengJang/proxy-config/refs/heads/main/pic/header.webp" width="100%" alt="header">
 </div>  
 
 

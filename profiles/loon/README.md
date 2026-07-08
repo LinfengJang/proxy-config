@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="../pic/loon_config_file.png" width="100%" alt="header">
+  <img src="https://raw.githubusercontent.com/LinfengJang/proxy-config/refs/heads/main/pic/loon_config_file.png" width="100%" alt="header">
 </div>  
 
 <div align="center">
@@ -17,12 +17,4 @@ https://github.com/LinfengJang/proxy-config/raw/refs/heads/main/profiles/loon/Lo
 - 复制 **订阅链接** 
 - 打开 **Loon**，**设置** —> **文件** —> **所有配置文件** —> **+ 按钮** —> **从链接导入**
 - 长按导入的配置文件，在菜单中选择 **应用**
-
-
-
-
-
-
-
-- 
 
