@@ -2,8 +2,8 @@
   <img src="./loon_config_file.png" width="100%" alt="header">
 </div>  
 
-<div>
-  <center><h1>Loon 配置文件</h1></center>
+<div align="center">
+  <h1>Loon 配置文件</h1>
 </div>
 
 ## 📝 订阅链接
