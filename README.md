@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./header.png" width="100%" alt="header">
+  <img src="https://raw.githubusercontent.com/LinfengJang/proxy-config/refs/heads/main/header.png" width="100%" alt="header">
 </div>  
 
 
@@ -9,7 +9,7 @@
 
 ## 🎈 Loon 配置
 
-- 📄 
+- 
 
 ## 🔀 分流规则（.list 格式）
 
