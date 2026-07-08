@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/LinfengJang/proxy-config/refs/heads/main/header.png" width="100%" alt="header">
+  <img src="https://raw.githubusercontent.com/LinfengJang/proxy-config/refs/heads/main/pic/header.png" width="100%" alt="header">
 </div>  
 
 
@@ -7,8 +7,9 @@
 
 > 本仓库收集了网上大佬制作的分流规则、Surge 模块，以及我自己魔改的配置文件。
 
-## 🎈 Loon 配置
+## 📝 配置文件
 
+- [Loon 配置文件](https://github.com/LinfengJang/proxy-config/tree/main/profiles/loon)
 - 
 
 ## 🔀 分流规则（.list 格式）
