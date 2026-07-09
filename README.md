@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./pic/header.webp" width="100%" alt="header">
+  <img src="./pic/home.webp" width="100%" alt="home">
 </div>  
 
 
