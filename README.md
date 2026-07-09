@@ -23,7 +23,7 @@
 - 🍎 [苹果服务](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Apple/Apple.list)
 - 📺 [流媒体服务](https://raw.githubusercontent.com/ddgksf2013/Filter/master/Streaming.list)
 - 📞 [Google Voice](https://raw.githubusercontent.com/ddgksf2013/Filter/master/GoogleVoice.list)
-- ✈✈️ [Telegram](https://raw.githubusercontent.com/Loon0x00/LoonLiteRules/main/proxy/Telegram.list)
+- ✈️ [Telegram](https://raw.githubusercontent.com/Loon0x00/LoonLiteRules/main/proxy/Telegram.list)
 - 🅱️ [Bilibili](https://raw.githubusercontent.com/ddgksf2013/Filter/master/StreamingSE.list) 
 
 ## 📦 Surge 模块
