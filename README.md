@@ -14,7 +14,7 @@
 
 ## 🔀 分流规则（.list 格式）
 
-分流规则的使用方法请点击 [这里]()
+分流规则的使用方法请点击 [这里](https://github.com/LinfengJang/proxy-config/tree/main/rules)
 
 - 📵 [**屏蔽 iOS 更新**](https://raw.githubusercontent.com/LinfengJang/proxy-config/refs/heads/main/rules/BlockiOSUpdate.list)
 - 🫧 [**微信分流**](https://raw.githubusercontent.com/LinfengJang/proxy-config/refs/heads/main/rules/weixin.list)

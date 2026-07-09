@@ -13,4 +13,4 @@ https://raw.githubusercontent.com/LinfengJang/proxy-config/refs/heads/main/rules
 - **Loon**：配置 —> 规则 —> 规则 —> 右上角 + 按钮 —> 添加订阅 —> 将链接复制到 URL/FileName，然后选择对应的策略 —> 右上角 ✔️按钮
 - **Quantumult X**：长按顶部粉色分流规则选项卡 —> 点击右上角 🔗+ 按钮 —> 将订阅链接复制进资源路径 —> 右上角 ✔️按钮
 - **Surge**：首页 —> 通用 —> 代理规则 —> 新增 —> 添加规则集 —> 在外部规则集中输入订阅链接，并选择对应策略 —> 右上角 ✔️按钮
-- 
+
