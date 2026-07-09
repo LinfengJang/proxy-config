@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/LinfengJang/proxy-config/refs/heads/main/pic/header.webp" width="100%" alt="header">
+  <img src="./pic/header.webp" width="100%" alt="header">
 </div>  
 
 
@@ -9,7 +9,8 @@
 
 ## 📝 配置文件
 
-- [Loon 配置文件](https://github.com/LinfengJang/proxy-config/tree/main/profiles/loon)
+- [🎈 Loon 配置文件](https://github.com/LinfengJang/proxy-config/tree/main/profiles/loon)
+- [🌊 Surge 配置文件]()
 
 ## 🔀 分流规则（.list 格式）
 

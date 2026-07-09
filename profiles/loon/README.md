@@ -1,6 +1,7 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/LinfengJang/proxy-config/refs/heads/main/pic/loon_config_file.webp" width="100%" alt="header">
+  <img src="./pic/loon_config_file.webp" width="100%" alt="header">
 </div>  
+
 
 <div align="center">
   <h1>🎈 Loon 配置文件</h1>
