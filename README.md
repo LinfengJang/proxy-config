@@ -12,6 +12,10 @@
 - [🎈 Loon 配置文件](https://github.com/LinfengJang/proxy-config/tree/main/profiles/loon)
 - [🌊 Surge 配置文件](https://github.com/LinfengJang/proxy-config/tree/main/profiles/surge)
 
+## 🤔 常见问题
+
+- [解决 Surge Mac + Sub Store 更换订阅链接后策略不生效的问题]
+
 ## 🔀 分流规则（.list 格式）
 
 分流规则的使用方法请点击 [这里](https://github.com/LinfengJang/proxy-config/tree/main/rules)
