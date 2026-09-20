@@ -1,0 +1,54 @@
+# ==========================================
+# Google Gemini - Surge Ultimate Rule Set
+# ==========================================
+
+# Gemini
+DOMAIN,gemini.google.com
+DOMAIN,bard.google.com
+
+# Gemini API
+DOMAIN,generativelanguage.googleapis.com
+
+# Google AI Studio / Developer
+DOMAIN,aistudio.google.com
+DOMAIN,makersuite.google.com
+DOMAIN,ai.google.dev
+
+# Gemini / Bard backend
+DOMAIN,bard.googleusercontent.com
+DOMAIN,gemini.googleusercontent.com
+
+# Gemini static resources
+DOMAIN,gemini.googleusercontent.com
+
+# Gemini API / RPC related
+DOMAIN,content-autofill.googleapis.com
+DOMAIN,optimizationguide-pa.googleapis.com
+
+# Google authentication
+DOMAIN,accounts.google.com
+DOMAIN,oauth2.googleapis.com
+DOMAIN,securetoken.googleapis.com
+
+# Google account / identity APIs
+DOMAIN,people-pa.googleapis.com
+DOMAIN,people.googleapis.com
+
+# Google AI / ML infrastructure
+DOMAIN,ml.googleapis.com
+DOMAIN,aiplatform.googleapis.com
+
+# Google Generative AI / Vertex AI
+DOMAIN-SUFFIX,aiplatform.googleapis.com
+
+# Google API infrastructure commonly required by Gemini
+DOMAIN,www.googleapis.com
+DOMAIN,storage.googleapis.com
+
+# Google static resources
+DOMAIN,www.gstatic.com
+DOMAIN,ssl.gstatic.com
+
+# Google fonts/resources sometimes loaded by Gemini
+DOMAIN,fonts.gstatic.com
+DOMAIN,fonts.googleapis.com

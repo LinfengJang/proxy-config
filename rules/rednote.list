@@ -1,0 +1,11 @@
+# ==========================================
+# Xiaohongshu / RED - Surge DIRECT Rule Set
+# ==========================================
+
+# Xiaohongshu / RED
+DOMAIN-SUFFIX,xiaohongshu.com
+DOMAIN-SUFFIX,xiaohongshu.cn
+DOMAIN-SUFFIX,xhscdn.com
+DOMAIN-SUFFIX,xhslink.com
+DOMAIN-SUFFIX,xhs.cn
+DOMAIN-SUFFIX,rednote.com
