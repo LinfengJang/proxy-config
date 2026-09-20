@@ -1,0 +1,37 @@
+# ==========================================
+# ChatGPT / OpenAI - Surge Rule Set
+# ==========================================
+
+# ChatGPT
+DOMAIN-SUFFIX,chatgpt.com
+
+# OpenAI
+DOMAIN-SUFFIX,openai.com
+
+# OpenAI Static Resources
+DOMAIN-SUFFIX,oaistatic.com
+
+# OpenAI User Content / Files
+DOMAIN-SUFFIX,oaiusercontent.com
+
+# OpenAI Legacy / API Related
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+
+# ChatGPT / OpenAI Microsoft Azure Infrastructure
+DOMAIN-SUFFIX,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+
+# OpenAI Apple Services
+DOMAIN-SUFFIX,openai.nel.measure.office.net
+
+# ChatGPT Voice / Realtime
+DOMAIN-SUFFIX,livekit.cloud
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,turn.livekit.cloud
+
+# ChatGPT Voice / WebRTC
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+
+# OpenAI telemetry / error reporting
+DOMAIN-SUFFIX,statsig.com
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
