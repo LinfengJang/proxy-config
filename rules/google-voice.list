@@ -1,0 +1,12 @@
+# ==========================================
+# Google Voice - Surge
+# Precise Routing
+# ==========================================
+
+# Google Voice
+DOMAIN,voice.google.com
+DOMAIN,voice.googleapis.com
+
+# Google Voice media
+IP-CIDR,74.125.39.0/24,no-resolve
+IP-CIDR6,2001:4860:4864:2::/64,no-resolve
