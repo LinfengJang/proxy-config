@@ -1,12 +1,18 @@
-# ==========================================
-# Google Voice - Surge
-# Precise Routing
-# ==========================================
-
 # Google Voice
 DOMAIN,voice.google.com
-DOMAIN,voice.googleapis.com
+DOMAIN,voice-pa.clients6.google.com
+DOMAIN,voice.googleusercontent.com
 
-# Google Voice media
-IP-CIDR,74.125.39.0/24,no-resolve
-IP-CIDR6,2001:4860:4864:2::/64,no-resolve
+# Google Voice API / Media
+DOMAIN-SUFFIX,telephony.goog
+DOMAIN,meetings.googleapis.com
+
+# Google STUN
+DOMAIN,stun.l.google.com
+DOMAIN,stun1.l.google.com
+DOMAIN,stun2.l.google.com
+DOMAIN,stun3.l.google.com
+DOMAIN,stun4.l.google.com
+
+# Google Push
+DOMAIN,mtalk.google.com
