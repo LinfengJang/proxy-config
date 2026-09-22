@@ -1,0 +1,8 @@
+# These rules are meant for SG only
+
+# Pikapak
+DOMAIN-SUFFIX,pikpak.me
+DOMAIN-SUFFIX,mypikpak.com
+DOMAIN-SUFFIX,pikpakdrive.com
+DOMAIN-SUFFIX,pikpakcloud.com
+DOMAIN-KEYWORD,pikpak

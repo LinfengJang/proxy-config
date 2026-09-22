@@ -1,0 +1,4 @@
+# These rules are meant for US only
+
+# ARC 浏览器
+DOMAIN-SUFFIX,arc.net,US

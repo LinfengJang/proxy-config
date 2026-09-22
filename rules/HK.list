@@ -1,0 +1,6 @@
+# These rules are meant for HK only
+
+# > 香港联通
+DOMAIN-KEYWORD,cuniq
+DOMAIN-SUFFIX,getui.net
+DOMAIN-SUFFIX,gepush.com

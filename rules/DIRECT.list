@@ -1,0 +1,10 @@
+# These rules are meant for DIRECT only
+
+# > 苹果邮件
+DOMAIN-SUFFIX,mail.me.com,DIRECT # Apple Mail SMTP / IMAP
+DOMAIN,push.apple.com,DIRECT # > Apple 推送相关
+
+# > iTunes & Apple Pay
+DOMAIN-SUFFIX,itunes.apple.com,DIRECT
+DOMAIN-SUFFIX,mzstatic.com,DIRECT
+
