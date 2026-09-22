@@ -1,0 +1,5 @@
+# These rules are meant for general proxy domains
+
+DOMAIN-SUFFIX,stripe.com # Stripe
+
+PROCESS-NAME,/Applications/Minecraft.app/ # Minecraft
