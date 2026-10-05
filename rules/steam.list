@@ -1,0 +1,24 @@
+# Steam 商店、登录、客服
+DOMAIN,steampowered.com
+DOMAIN,www.steampowered.com
+DOMAIN,store.steampowered.com
+DOMAIN,checkout.steampowered.com
+DOMAIN,login.steampowered.com
+DOMAIN,help.steampowered.com
+DOMAIN,api.steampowered.com
+
+# Steam 社区、创意工坊页面、市场
+DOMAIN-SUFFIX,steamcommunity.com
+
+# 网页静态资源
+DOMAIN,store.steamstatic.com
+DOMAIN,community.steamstatic.com
+DOMAIN,shared.steamstatic.com
+DOMAIN,avatars.steamstatic.com
+DOMAIN-WILDCARD,store.*.steamstatic.com
+DOMAIN-WILDCARD,community.*.steamstatic.com
+DOMAIN-WILDCARD,shared.*.steamstatic.com
+DOMAIN-WILDCARD,avatars.*.steamstatic.com
+
+# 社区图片和用户上传内容
+DOMAIN-SUFFIX,steamusercontent.com
