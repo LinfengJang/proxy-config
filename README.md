@@ -29,6 +29,8 @@
 - 📞 [Google Voice](https://raw.githubusercontent.com/ddgksf2013/Filter/master/GoogleVoice.list)
 - ✈️ [Telegram](https://raw.githubusercontent.com/Loon0x00/LoonLiteRules/main/proxy/Telegram.list)
 - 🅱️ [Bilibili](https://raw.githubusercontent.com/ddgksf2013/Filter/master/StreamingSE.list) 
+- 🎮 [Steam](https://raw.githubusercontent.com/LinfengJang/proxy-config/refs/heads/main/rules/steam.list)
+- 🔫 [PUBG Mobile](https://raw.githubusercontent.com/LinfengJang/proxy-config/refs/heads/main/rules/PUBG.list)
 
 ## 📦 Surge 模块
 
