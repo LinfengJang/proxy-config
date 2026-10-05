@@ -1,9 +1,6 @@
-DOMAIN,napubgm.broker.amsoveasea.com
-DOMAIN-SUFFIX,amsoveasea.com
-DOMAIN-SUFFIX,gpubgm.com
-DOMAIN-SUFFIX,pubgmobile.com
-DOMAIN-SUFFIX,dnsv1.com
-DOMAIN-SUFFIX,app-measurement.com
-DOMAIN-SUFFIX,igamecj.com
-DOMAIN-SUFFIX,tdatamaster.com
+# These rules are used for PUBG Mobile
 
+# PUBG Mobile 国际版：基础规则
+DOMAIN-SUFFIX,pubgmobile.com
+DOMAIN-SUFFIX,igamecj.com
+DOMAIN-SUFFIX,proximabeta.com
