@@ -22,3 +22,10 @@ DOMAIN-WILDCARD,avatars.*.steamstatic.com
 
 # 社区图片和用户上传内容
 DOMAIN-SUFFIX,steamusercontent.com
+
+# Steam 云存档：Google Cloud 存储
+DOMAIN-WILDCARD,steamcloud-*.storage.googleapis.com
+
+# Steam 云存档：AWS S3 存储，具体端点以日志为准
+DOMAIN-WILDCARD,steamcloud-*.s3.*.amazonaws.com
+DOMAIN-WILDCARD,steamcloud-*.s3.amazonaws.com
